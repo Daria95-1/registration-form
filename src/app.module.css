@@ -1,0 +1,40 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+form {
+    border: 1px solid rgb(145, 145, 145);
+    max-width: 800px;
+    padding: 40px;
+    margin: 50px auto;
+    border-radius: 20px;
+}
+
+button {
+    background-color: black;
+    color: aliceblue;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: rgb(21, 83, 255);
+    border: none;
+}
+
+button:disabled {
+    background-color: black;
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+button:focus {
+    box-shadow: 0 0 5px rgb(0, 0, 255);
+    border: none;
+}

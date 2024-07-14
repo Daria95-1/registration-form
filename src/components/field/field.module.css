@@ -1,0 +1,25 @@
+.errorLabel {
+    color: red;
+    position: relative;
+}
+
+.input_and_error {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 10px;
+    width: 300px;
+    flex-wrap: wrap;
+}
+
+input {
+    height: 30px;
+    border: 1px solid rgb(145, 145, 145);
+    border-radius: 5px;
+}
+
+input:focus {
+    border: 1px solid rgb(21, 83, 255);
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
+    outline: none;
+}
